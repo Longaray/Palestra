@@ -5,7 +5,7 @@ using System.Text;
 
 namespace Palestras
 {
-    class Palestrante
+    public class Palestrante
     {
         private String name;
         private int time;
