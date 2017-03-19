@@ -31,7 +31,7 @@ namespace Palestras
             List<int> eventDays = new List<int>(days * turns);
             List<Palestrante> palestraList;
             List<Object> turnList = new List<Object>();
-            int turnsRemaining = turns;
+            int turnsRemaining = days * turns;
             //Enquanto ha palestras nao agendadas
             while (totalEventsRemaining > 0 && turnsRemaining > 0)
             {
